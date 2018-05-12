@@ -1,4 +1,5 @@
 _repo: Mysterium-Arcae-Boule_46456
+_version: 0.1.0
 alternative_title: The mystery of the Boulé cabinet. Latin
 contributor:
   translator:
@@ -8,6 +9,9 @@ contributor:
     gutenberg_agent_id: '43799'
     url: http://www.gutenberg.org/2009/agents/43799
     wikipedia: https://en.wikipedia.org/wiki/Arcadius_Avellanus
+covers:
+- cover_type: generated
+  image_path: cover.png
 creator:
   author:
     agent_name: Stevenson, Burton Egbert
@@ -18,6 +22,8 @@ creator:
     url: http://www.gutenberg.org/2009/agents/980
     wikipedia: http://en.wikipedia.org/wiki/Burton_E._Stevenson
 description: ''
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/46456#Mysterium-Arcae-Boule
 gutenberg_issued: '2014-07-30'
 gutenberg_type: Text
 identifiers:
