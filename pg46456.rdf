@@ -1,202 +1,210 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
-  xmlns:cc="http://web.resource.org/cc/"
-  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
 >
   <pgterms:ebook rdf:about="ebooks/46456">
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/46456.rdf">
-        <dcterms:isFormatOf rdf:resource="ebooks/46456"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11712</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-28T08:21:18.208602</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/46456.html.noimages">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N62e643d6064842d0853a56d6f9a08cb9">
+          <rdf:Description rdf:nodeID="N549ad2b61e1b40c4a64188e8b5327bb4">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:license rdf:resource="license"/>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N4b54cc4b87c54d3ea0b04e6a152201d1">
-        <rdf:value>PS</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/46456.txt.utf-8">
-        <dcterms:isFormatOf rdf:resource="ebooks/46456"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-24T02:47:32.712938</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N0e6430be4d3c48788d4a86c5dac251fc">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">448254</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/46456/46456-8.zip">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N7b38cd8a5ac54a8da78280864782936e">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N87aa77d61eef4c129df29572bf20d071">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/46456"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-07-30T12:17:48</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">181031</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/46456.html.images">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">508938</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-24T02:47:36.434782</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/46456"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb5cca562a5514bcba3e4963eca8a896c">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/46456"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">509010</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-09-24T02:39:41.019553</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/46456.kindle.noimages">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">831855</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-09-24T02:39:48.014389</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/46456"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N114827a2a0114fd0b0c4d0c99ddb5522">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</pgterms:downloads>
-    <dcterms:alternative>The mystery of the Boulé cabinet. Latin</dcterms:alternative>
-    <dcterms:creator>
-      <pgterms:agent rdf:about="2009/agents/980">
-        <pgterms:name>Stevenson, Burton Egbert</pgterms:name>
-        <pgterms:alias>Stevenson, Burton E.</pgterms:alias>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1872</pgterms:birthdate>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1962</pgterms:deathdate>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Burton_E._Stevenson"/>
-      </pgterms:agent>
-    </dcterms:creator>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/46456.epub.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/46456"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nea6ba2c90bf8491bba73606637053e20">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">208225</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-09-24T02:39:41.493539</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</pgterms:downloads>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N5629832c936c4613a631d2616705133c">
+      <rdf:Description rdf:nodeID="N64fd99186b814806a106f575f4d2b713">
+        <rdf:value>Fiction</rdf:value>
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Detective and mystery stories</rdf:value>
       </rdf:Description>
     </dcterms:subject>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <dcterms:title>Mysterium Arcae Boulé</dcterms:title>
     <marcrel:trl>
       <pgterms:agent rdf:about="2009/agents/43799">
         <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1935</pgterms:deathdate>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1851</pgterms:birthdate>
+        <pgterms:alias>Mogyorossy, Arkad</pgterms:alias>
         <pgterms:name>Avellanus, Arcadius</pgterms:name>
         <pgterms:webpage rdf:resource="https://en.wikipedia.org/wiki/Arcadius_Avellanus"/>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1851</pgterms:birthdate>
+        <pgterms:alias>Mogyoróssy, Arkád</pgterms:alias>
       </pgterms:agent>
     </marcrel:trl>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/46456.kindle.images">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">831771</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-24T02:47:40.360610</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N9de53704a42d42d5bb1c5afd330bd966">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/46456"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/46456.epub.noimages">
-        <dcterms:isFormatOf rdf:resource="ebooks/46456"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-24T02:47:37.616724</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">208212</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N6f14a5e0252c411bb512fbda7c159f7d">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/46456.kindle.noimages">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">831764</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-24T02:47:42.618518</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N0d3e6f49e32749cfaa9ffb6d1c10c12d">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/46456"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/46456.html.noimages">
-        <dcterms:isFormatOf rdf:resource="ebooks/46456"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-24T02:47:36.663769</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N7e25d668ab4f48cb862f419d7b93f72d">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">508938</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
     <dcterms:language>
-      <rdf:Description rdf:nodeID="N737947236d5b461991c4ee9cd449fb01">
+      <rdf:Description rdf:nodeID="Nab050bcf476b44348d20d12fbdf07390">
         <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">la</rdf:value>
       </rdf:Description>
     </dcterms:language>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/46456.epub.images">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">208211</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/46456"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N5bb35e46d2764eaba31d9e7b266f18fe">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-24T02:47:37.232752</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
     <dcterms:type>
-      <rdf:Description rdf:nodeID="Naff6245f7d1b4608b63b2b28f89983ad">
+      <rdf:Description rdf:nodeID="Nb69cbab91f6949e097bc73b1aa49e44f">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
         <rdf:value>Text</rdf:value>
       </rdf:Description>
     </dcterms:type>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-07-30</dcterms:issued>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/46456/46456-8.txt">
-        <dcterms:isFormatOf rdf:resource="ebooks/46456"/>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/46456.txt.utf-8">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">448254</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-09-24T02:39:39.676567</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N9e6b62886ef2411dbfef41307f5211ae">
+          <rdf:Description rdf:nodeID="Nd70e4165c6c94071937b248b0b7ad2e0">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/46456"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nea807e7963b04ddbb8f0d9763f55c289">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>PS</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/46456/46456-8.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N96c63c309dcc44e49affed83b9f83ed3">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-07-30T12:17:46</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">447892</dcterms:extent>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">181031</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-07-30T12:17:48</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/46456"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ne5ea87604c364cbb9ab074a79be861ef">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/46456.kindle.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/46456"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N59e895145a6a41c09e24e1d84d9a665c">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-09-24T02:39:44.942490</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">831861</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/46456/46456-8.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/46456"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-07-30T12:17:46</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">447892</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ne15c94ba87934439a30d8e693ec9c6f4">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/46456.html.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/46456"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N99acfa207f984f3f901bc0869e9880ed">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-09-24T02:39:40.843549</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">509010</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:title>Mysterium Arcae Boulé</dcterms:title>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/46456.rdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/46456"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12092</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-20T06:39:29.047213</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N6b06dbd25a744157be78b5d94a687526">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/980">
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Burton_E._Stevenson"/>
+        <pgterms:alias>Stevenson, Burton E.</pgterms:alias>
+        <pgterms:name>Stevenson, Burton Egbert</pgterms:name>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1962</pgterms:deathdate>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1872</pgterms:birthdate>
+      </pgterms:agent>
+    </dcterms:creator>
+    <dcterms:alternative>The mystery of the Boulé cabinet. Latin</dcterms:alternative>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-07-30</dcterms:issued>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/46456.epub.noimages">
+        <dcterms:isFormatOf rdf:resource="ebooks/46456"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-09-24T02:39:41.830521</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N07b8321d864244bc86fa626dbd561b03">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">208223</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nc4fe8b7fa331467eaafb46438c3d468e">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Detective and mystery stories</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:license rdf:resource="license"/>
   </pgterms:ebook>
   <cc:Work rdf:about="">
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
     <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
             http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
   </cc:Work>
   <rdf:Description rdf:about="https://en.wikipedia.org/wiki/Arcadius_Avellanus">
     <dcterms:description>Wikipedia</dcterms:description>
